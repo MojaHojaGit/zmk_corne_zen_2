@@ -59,7 +59,7 @@
             bindings = <
 &kp ESC  &mt EXCL N1  &mt AT N2  &mt HASH N3  &mt DLLR N4  &mt PRCNT N5    &mt CARET N6  &mt AMPS N7  &mt STAR N8  &mt LPAR N9  &mt RPAR N0  &kp RBKT
 &trans   &trans       &trans     &kp AT       &kp MINUS    &trans          &kp PG_UP     &kp HOME     &kp UP       &kp END      &kp EXCL     &kp QUESTION
-&trans   &trans       &trans     &trans       &trans       &trans          &kp PG_DN     &kp LEFT     &kp DOWN     &kp RIGHT    &kp BSLH     &kp DEL
+&trans   &trans       &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans          &kp PG_DN     &kp LEFT     &kp DOWN     &kp RIGHT    &kp BSLH     &kp DEL
                                  &trans       &trans       &kp LSHFT       &kp LSHFT     &trans       &tog 2
             >;
         };
